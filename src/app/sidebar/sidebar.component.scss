@@ -1,0 +1,32 @@
+$grey: #f5f5f5;
+$red: #ed3833;
+
+.sidebar {
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 100;
+   padding: 48px 30px;
+   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+   box-shadow: .125rem 0 .25rem rgba(0,0,0,.075)!important;
+   background: #fff;
+}
+a{
+   color: rgba(0,0,0,.5);
+}
+a:hover, a.active{
+   color: $red;
+}
+.dropdown-menu {
+   position: static !important;
+   margin: -50px 0 55px 0;
+   top: 0;
+   z-index: 0;
+   padding: 0; 
+   border: none;
+   min-width: 0;
+}
+.dropdown-item{
+   padding: 0 5px 5px 10px;
+}
